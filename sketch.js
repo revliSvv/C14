@@ -124,6 +124,8 @@ function createArrow() {
   arrow.velocityX = -4;
   arrow.lifetime = 100;
   arrow.scale = 0.3;
+  arrow.debug = true;
+  arrow.setCollider('rectangle', 0, 0, 200, 10);
 
   arrowGroup.add(arrow);
 }
@@ -136,7 +138,7 @@ function redBalloon() {
   red.lifetime = 150;
   red.scale = 0.1;
   red.debug = true;
-  
+
   redB.add(red);
 }
 
