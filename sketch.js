@@ -124,7 +124,6 @@ function createArrow() {
   arrow.velocityX = -4;
   arrow.lifetime = 100;
   arrow.scale = 0.3;
-  arrow.debug = true;
   arrow.setCollider('rectangle', 0, 0, 200, 10);
 
   arrowGroup.add(arrow);
@@ -137,7 +136,7 @@ function redBalloon() {
   red.velocityX = 3;
   red.lifetime = 150;
   red.scale = 0.1;
-  red.debug = true;
+  
 
   redB.add(red);
 }
@@ -148,7 +147,7 @@ function blueBalloon() {
   blue.velocityX = 3;
   blue.lifetime = 150;
   blue.scale = 0.1;
-  blue.debug = true;
+  
 
   blueB.add(blue);
 }
@@ -159,7 +158,7 @@ function greenBalloon() {
   green.velocityX = 3;
   green.lifetime = 150;
   green.scale = 0.1;
-  green.debug = true;
+  
 
   greenB.add(green);
 }
@@ -170,7 +169,7 @@ function pinkBalloon() {
   pink.velocityX = 3;
   pink.lifetime = 150;
   pink.scale = 1.25;
-  pink.debug = true;
+  
 
   pinkB.add(pink);
 }
